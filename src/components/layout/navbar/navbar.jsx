@@ -17,7 +17,7 @@ export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
 
   return (
-    <Box>
+    <Box position={"fixed"} width={"100%"}>
       <Flex justifyContent={"space-around"}>
         <Flex alignItems={"center"} p={5}>
           <Image width={"48px"} src="/icon-64.png" />
