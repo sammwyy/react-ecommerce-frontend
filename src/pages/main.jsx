@@ -1,3 +1,9 @@
+import { Box } from "@chakra-ui/react";
+
 export default function Main() {
-  return <h1>Hello World</h1>
+  return (
+    <Box px={"10%"} py={"2%"}>
+      Hello World
+    </Box>
+  );
 }
